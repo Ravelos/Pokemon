@@ -1,19 +1,103 @@
-*{
+* {
     font-family: 'Robot', sans-serif;
     box-sizing: border-box;
 }
 
-body{
+
+.normal {
+    background-color: #A6A877;
+}
+
+.grass {
+    background-color: #77C850;
+}
+
+.fire {
+    background-color: #EE7F30;
+
+}
+
+.rock {
+    background-color: #E2E3C7;
+}
+
+.ground {
+
+    background-color: #dfbf68;
+}
+
+
+.water {
+    background-color: #698fe8;
+}
+
+.electric {
+    background-color: #f5cf30;
+}
+
+.ice {
+    background-color: #98d5d6;
+}
+
+.flying {
+
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a03fa0;
+}
+
+.figthing {
+
+    background-color: #bf3028;
+}
+
+.psychic {
+
+    background-color: #f85687;
+}
+
+.dark {
+
+    background-color: #725847;
+}
+
+.bug {
+
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.fairy {
+    background-color: #feaec7;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.steel {
+
+    background-color: #b9b7cf;
+}
+
+
+
+body {
     background-color: #F6F8FC;
 }
 
-.content{
+.content {
     padding: 1rem;
     background-color: #FFF;
     height: 100vh;
     width: 100vw;
 }
 
-.content h1{
+.content h1 {
     margin: 0;
 }
