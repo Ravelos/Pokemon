@@ -1,7 +1,7 @@
 const pokeApi = {};
 
 const offset = 0;
-const limit = 5;
+const limit = 100;
 const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`;
 
 function convertPokemonApiDetailsToPokemon(pokemonDetail) {
