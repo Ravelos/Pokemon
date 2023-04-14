@@ -11,7 +11,6 @@
     margin: 0.5rem;
     padding: 2rem 1rem;
     color: #FFF;
-    background-color: #49D0B0;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -27,6 +26,7 @@
 .pokemon .name{
     color: #FFF;
     margin-bottom: 0;
+    text-transform: capitalize;
 }
 
 .pokemon .detail{
@@ -43,12 +43,13 @@
 }
 
 .pokemon .detail .types .type{
-    background-color: #61E1CA;
     color: #FFF;
     padding: .25rem  .5rem;
     margin: .25rem 0;
     font-size: .625rem;
     border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
 }
 
 .pokemon .detail img{
